@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/PySide2_QML_Signal_Slot.iml" filepath="$PROJECT_DIR$/.idea/PySide2_QML_Signal_Slot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/QmlPython.iml" filepath="$PROJECT_DIR$/.idea/QmlPython.iml" />
     </modules>
   </component>
 </project>
