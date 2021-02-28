@@ -33,10 +33,7 @@ if __name__ == "__main__":
     backend = Backend()
     engine = QQmlApplicationEngine()
     engine.rootContext().setContextProperty("backend", backend)
-    qml_file = "main.qml"
-    current_dir = os.path.dirname(os.path.realpath(__file__))
-    filename = os.path.join(current_dir, qml_file)
-    engine.load(QUrl.fromLocalFile(filename))
+    engine.load(os.path.join(os.path.dirname(__file__), "main.qml"))
     if not engine.rootObjects():
         sys.exit(-1)
     sys.exit(app.exec_())
